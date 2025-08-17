@@ -1,0 +1,58 @@
+    /* src/App.css */
+
+    /* Example styles for your App component's main div */
+    .app-container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #f5f5f5; /* A slightly different light background */
+      color: #333;
+    }
+
+    /* You can add more specific styles for elements within your App component here */
+    /* For example, if you have a header or footer unique to App.jsx */
+
+    .app-header {
+      background-color: #4CAF50; /* Green header */
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .main-content {
+      display: flex;
+      flex-grow: 1; /* Allows content to take up available space */
+      padding: 20px;
+      gap: 20px; /* Space between timeline and details sections */
+      flex-wrap: wrap; /* Allows layout to wrap on smaller screens */
+    }
+
+    .timeline-section, .details-metrics-section {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      overflow-y: auto; /* Enable scrolling for content that overflows */
+      max-height: calc(100vh - 120px); /* Adjust based on header/footer height */
+    }
+
+    .timeline-section {
+      flex: 1; /* Takes up 1 part of available space */
+      min-width: 300px; /* Ensures it doesn't get too narrow */
+    }
+
+    .details-metrics-section {
+      flex: 2; /* Takes up 2 parts of available space */
+      min-width: 450px; /* Ensures it doesn't get too narrow */
+    }
+
+    .app-footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    
