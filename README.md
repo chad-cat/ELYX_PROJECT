@@ -18,26 +18,29 @@ Data: JSON
 
 
 ## Project Structure
+
+```
 elyx-dashboard/
 ├── node_modules/
 ├── public/
 ├── src/
-│   ├── components/
-│   │   ├── DetailsPanel.jsx
-│   │   ├── InternalMetrics.jsx
-│   │   └── Timeline.jsx
-│   ├── data/
-│   │   └── rohan_patel_journey.json
-│   ├── App.css
-│   ├── app.jsx
-│   ├── index.css
-│   └── main.jsx
+│ ├── components/
+│ │ ├── DetailsPanel.jsx
+│ │ ├── InternalMetrics.jsx
+│ │ └── Timeline.jsx
+│ ├── data/
+│ │ └── rohan_patel_journey.json
+│ ├── App.css
+│ ├── app.jsx
+│ ├── index.css
+│ └── main.jsx
 ├── .eslintrc.cjs
 ├── .gitignore
 ├── index.html
 ├── package.json
 ├── package-lock.json
 └── vite.config.js
+```
 
 
 ****Setup & Run****
